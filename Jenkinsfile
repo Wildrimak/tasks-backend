@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage ('Just Test!') {
             steps {
-                bat 'Hello World'
-                bat 'Done!'
+                bat 'echo Start'
+                bat 'echo Done!'
             }
         }
     }
